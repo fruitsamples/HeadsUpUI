@@ -1,12 +1,16 @@
 HeadsUpUI
-Demonstrates how to implement a headsUp or HUD-like user interface over the app's primary view controller.  This essentially mimics the behavior of the MPMoviePlayerController's hovering controls for controlling movie playback.  Developers can refer to this sample for best practices in how to implement this translucent kind of interface complete with animation and timer support.This sample implements two basic UIViews: one for intercepting a user tap to show the hover UI, the other for rendering the translucent appearance.  The app's primary UIViewController handles the control clicks on this UI as well as implements a NSTimer that automatically hides the controls after 5 seconds.  The sample uses the UIViewAnimation category to achieve a fade-in and fade-out effect.
+
+Demonstrates how to implement a headsUp or HUD-like user interface over the app's primary view controller.  This essentially mimics the behavior of the MPMoviePlayerController's hovering controls for controlling movie playback.  Developers can refer to this sample for best practices in how to implement this translucent kind of interface complete with animation and timer support.
+
+This sample implements two basic UIViews: one for intercepting a user tap to show the hover UI, the other for rendering the translucent appearance.  The app's primary UIViewController handles the control clicks on this UI as well as implements a NSTimer that automatically hides the controls after 5 seconds.  The sample uses the UIViewAnimation category to achieve a fade-in and fade-out effect.
+
 
 Build Requirements
-Mac OS X 10.5.3, Xcode 3.1, iPhone OS 2.0.
+iOS 4.0 SDK
 
 
 Runtime Requirements
-Mac OS X 10.5.3, iPhone OS 2.0.
+iPhone OS 3.2 or later
 
 
 Using the Sample
@@ -25,6 +29,7 @@ MainView.h/.m - The background picture view for this application (embeds HoverVi
 
 Changes from Previous Versions
 1.0 - First release.
+1.1 - Upgraded project to build with the iOS 4.0 SDK.
 
 
-Copyright (C) 2008 Apple Inc. All rights reserved.
+Copyright (C) 2008-2010 Apple Inc. All rights reserved.
